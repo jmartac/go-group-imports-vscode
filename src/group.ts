@@ -40,8 +40,8 @@ export const goGroupImports = async () => {
 
 type ImportGroups = {
   stdlib: string[];
-  thirdParty: string[];
   own: string[];
+  thirdParty: string[];
 };
 
 const isStdlibImport = (imp: string): boolean => {
